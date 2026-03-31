@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-size: 16px;
+    font-family: "Teachers", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    background-color: #F5F5F5;
+    color: #949494;
+    margin: 0 auto;
+}
+
+button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+}
+
+span{
+    color: black;
+}
+
+.logo {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -53,6 +53,20 @@ youtube-player iframe {
     height: 231px;
     border-radius:12px;
 }
+
+.illustrations {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10px;
+    width: 94%;
+  }
+  
+  .illustrations img {
+    flex: 1 1 45%;    
+    min-width: 200px; 
+    border-radius: 12px;
+  }
+
 @media (max-width:1200px){
 
     .desktop{
@@ -76,5 +90,21 @@ youtube-player iframe {
         margin-top: 2rem;
 
     }
+
+    .illustrations{
+        margin: 0 auto;
+    }
+
+    .image-wrapper img {
+        margin: 0 auto;
+    }
+
    
 }
+
+.image-wrapper img {
+    width: 94%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }

@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 1.25em;
     font-family: "Teachers", sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
@@ -13,6 +13,9 @@ button{
     outline: none;
     border: none;
     text-decoration: underline;
+    font-size: 1.25em;
+    font-family: "Teachers", sans-serif;
+    padding: 0px;
 }
 
 span{
@@ -23,4 +26,20 @@ span{
     font-family: "Homemade Apple", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+
+@media (max-width:1200px){
+    body {
+        font-size: 0.8em;
+    }
+
+    .logo {
+        font-family: "Teachers", sans-serif;
+    }
 }

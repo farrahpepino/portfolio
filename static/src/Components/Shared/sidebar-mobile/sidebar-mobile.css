@@ -1,0 +1,30 @@
+.logo{
+    font-size: 2em;
+    color: black
+}
+
+.headline{
+    display: flex;
+    margin-top: -1px;
+}
+
+.frame{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu button{
+    color: #949494;
+    text-decoration: none;
+    display: flex;
+}
+
+.menu {
+    margin-top: 8em;
+}

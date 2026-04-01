@@ -1,0 +1,34 @@
+<div class="frame" *ngIf="menuOpen">
+    <div class="header">
+        <div>
+            <div class="logo">Farrah Pepino</div>
+            <span class="headline">Product Designer & Engineer</span>
+        </div>
+    
+        <div>
+            <button title="close" (click)="toggleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#949494"><path d="m256-236-20-20 224-224-224-224 20-20 224 224 224-224 20 20-224 224 224 224-20 20-224-224-224 224Z"/></svg>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="menu">
+        <button>WORKS</button>
+        <button>ABOUT</button>
+    </div>
+</div>
+
+
+<div class="frame" *ngIf="menuOpen==false">
+    <div class="header">
+        <div>
+            <div class="logo">Farrah Pepino</div>
+            <span class="headline">Product Designer & Engineer</span>
+        </div>
+    
+        <div>
+            <button title="menu" (click)="toggleMenu()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#949494"><path d="M172-278v-28h616v28H172Zm0-188v-28h616v28H172Zm0-188v-28h616v28H172Z"/></svg></button>
+        </div>
+    </div>
+</div>

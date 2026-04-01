@@ -10,9 +10,22 @@
     flex-direction: column;
     gap: 1em;
     width: 30em;
-    margin-top: 7em;
+    margin: 0 auto;
+
 }
 
+.profile img{
+    width: 300px;
+    border-radius: 12px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 7em;
+    align-items: center;
+}
 span{
     color: #949494;
 }
@@ -73,6 +86,10 @@ span{
 
     .e {
         margin-top: 5em;
+        flex-direction: column;
+    }
+
+    .profile{
         flex-direction: column;
     }
 }

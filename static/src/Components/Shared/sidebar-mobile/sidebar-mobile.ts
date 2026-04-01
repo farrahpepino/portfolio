@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar-mobile',
@@ -16,5 +17,15 @@ export class SidebarMobile {
   toggleMenu(){
     this.menuOpen = !this.menuOpen;
     this.sidebarToggled.emit(this.menuOpen);
+  }
+
+  constructor(private route: Router){}
+
+  home(){
+    this.route.navigateByUrl('');
+  }
+
+  about(){
+    this.route.navigate(['about']);
   }
 }

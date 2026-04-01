@@ -32,11 +32,16 @@ span{
     text-decoration: underline;
 }
 
+a{
+    color: black;
+}
 
 
 @media (max-width:1200px){
     body {
         font-size: 0.8em;
+        background-color: white;
+        color: gray;
     }
 
     .logo {

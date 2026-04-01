@@ -1,0 +1,53 @@
+<app-sidebar class="desktop"></app-sidebar>
+<app-sidebar-mobile class="mobile" (sidebarToggled)="onSidebarToggle($event)"></app-sidebar-mobile>
+
+
+<div class="frame" [class.hidden]="isSidebarOpen">
+    <div class="wrapper">
+        <div>
+            <div>UX RESEARCH, DESIGN, AND ENGINEERING</div>
+            <br>
+            <div class="ux">
+                <div *ngFor="let item of ux" class="item">
+                    <div class="video-wrapper"> 
+                        <youtube-player [videoId]="item.videoId" class="video"  width="410" height="231"></youtube-player>
+                    </div>
+                    <a [href]="item.github" target="_blank">github</a>
+                </div>
+                <div class="item">
+                    <a rel="noopener" href="https://www.figma.com/proto/OSybmFtiIEqXFiCXYNnuCI/bon-appe%CC%81tit?node-id=44-13&p=f&t=73jwQ2CuReVgzv3V-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=44%3A13"  target="_blank">
+                        <img src="ba-research.png" alt="bon-appétit">
+                    </a>
+                    <a href="https://drive.google.com/drive/u/1/folders/1YsNUCJsAGkcz951ZOzoM1ihkbW1zexbE" rel="noopener" target="_blank">case study</a>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <div>
+            <div>ILLUSTRATIONS</div>
+            <br>
+            <div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>

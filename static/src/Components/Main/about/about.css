@@ -38,10 +38,6 @@ span{
     flex-direction: column;
 }
 
-.frame.hidden {
-    display: none;
-}
-
 .desktop{
     display: block;
 }
@@ -60,20 +56,21 @@ span{
         display: block;
     }
     
+    .frame.hidden {
+        display: none;
+    }
 
-    .about {
+    .about{
         width: 100%;
         margin-top: 0em;
+        margin: 0 auto;
     }
     
     .frame{
         margin: 0 auto;
         padding: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
+
     .e {
         margin-top: 5em;
         flex-direction: column;

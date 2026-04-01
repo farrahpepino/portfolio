@@ -17,7 +17,6 @@ export class About {
     this.isSidebarOpen = state;
   }
 
-
   teaching = [
     {
       "role": "STEM Tutor",

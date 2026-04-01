@@ -20,11 +20,12 @@
 }
 
 .menu button{
-    color: #949494;
+    color: black;
     text-decoration: none;
     display: flex;
 }
 
 .menu {
-    margin-top: 8em;
+    position: fixed;
+    bottom: 25px;
 }

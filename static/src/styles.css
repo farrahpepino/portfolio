@@ -1,5 +1,5 @@
 body {
-    font-size: 1.25em;
+    font-size: 1em;
     font-family: "Teachers", sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
@@ -13,7 +13,7 @@ button{
     outline: none;
     border: none;
     text-decoration: underline;
-    font-size: 1.25em;
+    font-size: 1em;
     font-family: "Teachers", sans-serif;
     padding: 0px;
 }

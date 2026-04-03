@@ -18,9 +18,10 @@ export class Home {
     this.isSidebarOpen = state;
   }
 
+
   ux = [
     {
-      "videoId": "thcIL_FF-9I",
+      "videoId": "epMv6NNm7LM",
       "github": "https://github.com/farrahpepino/relationship-gpt"
     },
     {

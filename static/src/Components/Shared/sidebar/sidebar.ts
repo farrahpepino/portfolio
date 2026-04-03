@@ -11,7 +11,7 @@ export class Sidebar {
   constructor(private route: Router){}
 
   home(){
-    this.route.navigateByUrl('/home');
+    this.route.navigateByUrl('/work');
   }
 
   about(){

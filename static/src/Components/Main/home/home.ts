@@ -21,15 +21,18 @@ export class Home {
   ux = [
     {
       "videoId": "epMv6NNm7LM",
-      "github": "https://github.com/farrahpepino/relationship-gpt"
+      "github": "https://github.com/farrahpepino/relationship-gpt",
+      "title": "RelationshipGPT"
     },
     {
       "videoId": "AoDgb6FLF0o",
-      "github": "https://github.com/farrahpepino/ecommerce-app"
+      "github": "https://github.com/farrahpepino/ecommerce-app",
+      "title": "E-commerce application"
     },
     {
       "videoId": "U8A_GpiDMRo",
-      "github": "https://github.com/farrahpepino/social-networking-app"
+      "github": "https://github.com/farrahpepino/social-networking-app",
+      "title": "Social Networking application"
     }
   ]
 

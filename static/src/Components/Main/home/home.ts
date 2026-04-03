@@ -18,7 +18,6 @@ export class Home {
     this.isSidebarOpen = state;
   }
 
-
   ux = [
     {
       "videoId": "epMv6NNm7LM",

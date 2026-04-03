@@ -11,11 +11,11 @@ export class Sidebar {
   constructor(private route: Router){}
 
   home(){
-    this.route.navigateByUrl('');
+    this.route.navigateByUrl('/home');
   }
 
   about(){
-    this.route.navigate(['about']);
+    this.route.navigate(['']);
   }
 
 }

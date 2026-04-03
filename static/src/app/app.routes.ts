@@ -4,11 +4,11 @@ import { About } from '../Components/Main/about/about';
 
 export const routes: Routes = [
     {
-        path: "",
+        path: "home",
         component: Home
     },
     {
-        path: "about",
+        path: "",
         component: About
     },
 ];

@@ -22,10 +22,12 @@ export class SidebarMobile {
   constructor(private route: Router){}
 
   home(){
-    this.route.navigateByUrl('');
+    this.route.navigateByUrl('/home');
+    this.toggleMenu();
   }
 
   about(){
-    this.route.navigate(['about']);
+    this.route.navigate(['']);
+    this.toggleMenu();
   }
 }

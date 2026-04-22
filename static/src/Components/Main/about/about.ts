@@ -47,10 +47,6 @@ export class About {
     {
       "degree": "B.S. Computer Science",
       "university": "New Jersey City University"
-    },
-    {
-      "degree": "Certificate, Human-Computer Interaction",
-      "university": "Georgia Institute of Technology"
     }
   ]
 
